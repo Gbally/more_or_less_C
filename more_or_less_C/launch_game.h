@@ -1,11 +1,3 @@
-//
-//  launch_game.h
-//  more_or_less_C
-//
-//  Created by SBR1613127 on 2019/03/19.
-//  Copyright © 2019 SBR1613127. All rights reserved.
-//
-
 #ifndef launch_game_h
 #define launch_game_h
 

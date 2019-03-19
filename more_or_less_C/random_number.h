@@ -1,11 +1,3 @@
-//
-//  random_number.h
-//  more_or_less_C
-//
-//  Created by SBR1613127 on 2019/03/19.
-//  Copyright © 2019 SBR1613127. All rights reserved.
-//
-
 #ifndef random_number_h
 #define random_number_h
 

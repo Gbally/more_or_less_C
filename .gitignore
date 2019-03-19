@@ -53,3 +53,7 @@ dkms.conf
 
 # Xcode
 *.xcodeproj
+
+# Other
+*.DS_Store
+

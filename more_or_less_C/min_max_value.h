@@ -1,11 +1,3 @@
-//
-//  min_max_value.h
-//  more_or_less_C
-//
-//  Created by SBR1613127 on 2019/03/19.
-//  Copyright © 2019 SBR1613127. All rights reserved.
-//
-
 #ifndef min_max_value_h
 #define min_max_value_h
 
