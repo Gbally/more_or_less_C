@@ -47,4 +47,5 @@ struct min_max_value min_max(){
     return val;
 }
 
+
 #endif /* min_max_value_h */

@@ -68,7 +68,7 @@ void game_option_human() {
     // Player 2
     cpt_p2 = game(choose_number(val.smin, val.smax, 2, 1));
     
-    printf("Player 1 succeded in %d try while player 2 succeded in %d try.\n", cpt_p1, cpt_p2);
+    printf("\nPlayer 1 succeded in %d try while player 2 succeded in %d try.\n", cpt_p1, cpt_p2);
 //    printf ( "Press enter to continue..." );
 //    fflush ( stdout );
 //    getchar();
