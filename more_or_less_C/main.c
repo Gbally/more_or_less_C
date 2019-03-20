@@ -57,16 +57,17 @@ void game_option_human() {
     // Let a player 1 choose the range then player 2 play, then switch players and display the score
     int cpt_p1;
     int cpt_p2;
+
+    int min = 0;
+    int max = 0;
     
-    // A bit useless to use structure but it made me learn from it - so not so useless after all
-    struct min_max_value val;
-    val = min_max();
+    min_max_value(&min, &max);
     
     // Player 1
-    cpt_p1 = game(choose_number(val.smin, val.smax, 1, 2));
+    cpt_p1 = game(choose_number(min, max, 1, 2));
     
     // Player 2
-    cpt_p2 = game(choose_number(val.smin, val.smax, 2, 1));
+    cpt_p2 = game(choose_number(min, max, 2, 1));
     
     printf("\nPlayer 1 succeded in %d try while player 2 succeded in %d try.\n", cpt_p1, cpt_p2);
 //    printf ( "Press enter to continue..." );
